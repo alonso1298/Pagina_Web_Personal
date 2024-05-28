@@ -21,3 +21,8 @@ body {
 .titulo span {
     font-size: 2rem;
 }
+
+.navegacion-principal {
+    background-color: var(--secundario);
+    padding: 1rem 0;
+}
