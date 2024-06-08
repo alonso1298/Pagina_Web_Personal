@@ -99,39 +99,43 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </section>
         </div> <!-- .servicios -->
-    </main>
     
-    <section>
-        <h2>Contacto</h2>
+        <section>
+            <h2>Contacto</h2>
 
-        <form action="">
-            <fieldset>
-                <legend>Contactame llenando todos los campos</legend>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contactame llenando todos los campos</legend>
 
-                <div>
-                    <label for="">Nombre</label>
-                    <input type="text" placeholder="Tu Nombre">
-                </div>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu Nombre">
+                        </div>
 
-                <div>
-                    <label for="">Telefono</label>
-                    <input type="tel" placeholder="Tu Teléfono">
-                </div>
+                        <div class="campo">
+                            <label>Telefono</label>
+                            <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                        </div>
 
-                <div>
-                    <label for="">Correo</label>
-                    <input type="email" placeholder="Tu Email">
-                </div>
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu Email">
+                        </div>
 
-                <div>
-                    <label for="">Mensaje</label>
-                    <textarea name="" id=""></textarea>
-                </div>
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div> <!-- .contenedor-campos -->
 
-                <input type="submit" value="Enviar">
-            </fieldset>
-        </form>
-    </section>
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
 
     <footer>
         <p>Todos los derechos reservados. Alonso Sagrero</p>
